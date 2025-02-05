@@ -6,11 +6,9 @@ const Footer = () => {
     <div className=" bg-gradient-to-r from-[#fff] to-[#eb8fc8] text-black rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">CafePulse</h1>
+          <h1 className=" font-semibold text-xl pb-4">CaféPablo</h1>
           <p className=" text-sm">
-            Welcome to our coffee haven! Explore our aromatic brews, savor
-            artisanal flavors, and discover the perfect roast to elevate your
-            daily ritual.
+            Site Exemplo para Cafetarias, Padarias e Autônomos
           </p>
         </div>
         <div>
@@ -76,7 +74,7 @@ const Footer = () => {
               className=" hover:text-backgroundColor transition-all cursor-pointer"
               href="/"
             >
-              CafePulse@email.com
+              dev.pablonunes@gmail.com
             </a>
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
