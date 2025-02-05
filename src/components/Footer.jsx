@@ -8,7 +8,7 @@ const Footer = () => {
         <div className=" w-full md:w-1/4">
           <h1 className=" font-semibold text-xl pb-4">CaféPablo</h1>
           <p className=" text-sm">
-            Site Exemplo para Cafetarias, Padarias e Autônomos
+            Site Exemplo para Cafeterias, Padarias e Autônomos
           </p>
         </div>
         <div>
