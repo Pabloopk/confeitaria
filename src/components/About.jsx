@@ -15,29 +15,20 @@ const About = () => {
           <h2 className=" font-semibold text-3xl">
             Sobre o Projeto
           </h2>
+          <p>A <span className="text-red-400 font-bold">love Cakes</span> não é apenas uma confeitaria, é um pedacinho de carinho em forma de doce!</p>
           <p>
-            Com um design intuitivo e funcional, o projeto busca atender às necessidades básicas de presença online, permitindo que pequenos negócios apresentem seus produtos, menus e informações essenciais de forma profissional e acessível.
-          </p>
-          <p>
-            Um site de bolos no pote deve ser atraente, intuitivo e funcional, destacando a variedade de sabores,
-             ingredientes de qualidade e a praticidade do produto. Além de um design moderno e imagens apetitosas, 
-             é essencial que o site ofereça uma experiência fácil de navegação, permitindo que os clientes conheçam os produtos, 
-             personalizem pedidos e realizem compras online de forma rápida e segura. Informações sobre ingredientes, embalagens 
-             e opções de entrega podem agregar valor à experiência do usuário, aumentando a confiança na marca. Além disso,
-             integrar um blog com receitas, dicas e novidades pode fortalecer a identidade do negócio e atrair mais clientes.
+            Nossa paixão por confeitaria vai além do sabor: queremos transformar momentos simples em experiências inesquecíveis. Cada bolo, cada cookie e cada potinho de sobremesa é feito com ingredientes selecionados, muito amor e um toque especial de felicidade.
           </p>
            <p>
-            Um site de bolos no pote deve ser atraente, intuitivo e funcional, destacando a variedade de sabores,
-             ingredientes de qualidade e a praticidade do produto. Além de um design moderno e imagens apetitosas, 
-             é essencial que o site ofereça uma experiência fácil de navegação, permitindo que os clientes conheçam os produtos, 
-             personalizem pedidos e realizem compras online de forma rápida e segura. Informações sobre ingredientes, embalagens 
-             e opções de entrega podem agregar valor à experiência do usuário, aumentando a confiança na marca. Além disso,
-             integrar um blog com receitas, dicas e novidades pode fortalecer a identidade do negócio e atrair mais clientes.
-          </p>
+            <span className="text-red-400 font-bold">Nosso propósito?</span> Adoçar sua vida com receitas artesanais, cheias de sabor e afeto. Seja para presentear alguém especial, celebrar uma conquista ou simplesmente se mimar com um doce incrível, estamos aqui para tornar cada momento ainda mais doce!
+             </p>
 
-         <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
-        </div>
+       </div>
+       
       </div>
+      <div className="mt-14">
+        <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 "  target={"_blank"}><Button title="Contato" /></a>
+      </div>  
     </div>
   );
 };
