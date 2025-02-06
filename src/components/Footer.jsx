@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi%21&type=phone_number&app_absent=0"
               target="_blank"
             >
               61 9 9229 5015

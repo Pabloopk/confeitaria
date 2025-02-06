@@ -126,19 +126,19 @@ const reviews = [
   {
     id: 1,
     img: img1,
-    title: "João Silva",
+    title: "Luiza Silva",
     text: "Ótima experiência, atendimento excelente!",
   },
   {
     id: 2,
     img: img2,
-    title: "Maria Souza",
+    title: "João Souza",
     text: "Adorei o serviço, super recomendo!",
   },
   {
     id: 3,
     img: img3,
-    title: "Carlos Lima",
+    title: "Elisa Lima",
     text: "Serviço impecável e entrega rápida!",
   },
   // {

@@ -11,24 +11,23 @@ const Review = () => {
       </h1>
 
     <div className=" flex flex-col items-center justify-center">
-    <p className="mt-12 flex-col items-center justify-center">Nossos clientes amam o sabor e o carinho dos nossos doces!</p>
-
-      <p className="mt-2">Veja o que estão dizendo:</p>
+        <p className="mt-12 flex-col items-center justify-center text-center">Nossos clientes amam o sabor e o carinho dos nossos doces!</p>
+        <p className="mt-2">Veja o que estão dizendo:</p>
     </div>
 
       <div className=" flex flex-col mt-14 lg:flex-row gap-5 justify-center py-4 my-8">
         <ReviewCard />
       </div>
-      <div className=" flex flex-col items-center justify-center">
-        <p className="mt-12 "><span className="text-red-500 text-lg">
-          Quer aparecer aqui?</span> </p> 
-          <p className="flex items-center justify-between">Nos marque no instagram:
-            <a href="/" target={"_blank"} className="ml-3" >
-                <FaInstagram/>
-            </a>
-          </p>
-        <p className="mt-2">Compartilhe seu momento doce conosco!</p>     
-      </div>
+        <div className=" flex flex-col items-center justify-center">
+          <p className="mt-12 "><span className="text-red-500 text-lg">
+            🔔Quer aparecer aqui?</span> </p> 
+            <p className="flex items-center justify-between">Nos marque no instagram:
+              <a href="/" target={"_blank"} className="ml-3" >
+                  <FaInstagram/>
+              </a>
+            </p>
+          <p className="mt-2 text-center">Compartilhe seu momento doce conosco!🍰🍰🥰</p>     
+        </div>
     </div>
   );
 };
