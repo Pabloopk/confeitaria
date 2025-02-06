@@ -34,10 +34,12 @@ const App = () => {
         <div id="review">
           <Review />
         </div>
-        <ScrollingText
+        <div className="lg:mb-10">
+          <ScrollingText
               text="com amor e carinho para seu dia mais doce!"
               speed={20} // Tempo em segundos para o texto percorrer a tela
             />
+         </div>
       </main>
 
       <Footer />
