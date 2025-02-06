@@ -4,6 +4,7 @@ import { SiCoffeescript } from "react-icons/si";
 import Button from "../layouts/Button";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
             <span>
               <SiCoffeescript size={25} />
             </span>
-            <h1 className=" text-xl font-semibold">CaféPablo</h1>
+            <h1 className=" text-xl font-semibold">LoveCakes</h1>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -87,7 +88,7 @@ const Navbar = () => {
           </nav>
 
           <div className=" hidden lg:flex">
-              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaWhatsapp className="rounded-full text-white bg-green-500"/></a>
           </div>
 
           <div className="md:hidden flex items-center">
