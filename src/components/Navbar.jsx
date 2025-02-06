@@ -89,6 +89,7 @@ const Navbar = () => {
 
           <div className=" hidden text-2xl lg:flex">
               <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaInstagram className="rounded-3xl text-2xl ml-3 text-pink-700 bg-white"/></a>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -102,7 +103,7 @@ const Navbar = () => {
         <div
           className={` ${
             menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-black text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          } lg:hidden flex flex-col absolute bg-pink-900/75 text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to="home"
@@ -155,7 +156,10 @@ const Navbar = () => {
             Avaliações	
           </Link>
 
-          <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
+          <div className="flex items-center justify-center text-2xl lg:flex">
+              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaInstagram className="rounded-3xl text-2xl ml-3 text-pink-700 bg-white"/></a>
+          </div>
         </div>
       </div>
     </div>
