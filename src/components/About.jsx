@@ -26,8 +26,16 @@ const About = () => {
              e opções de entrega podem agregar valor à experiência do usuário, aumentando a confiança na marca. Além disso,
              integrar um blog com receitas, dicas e novidades pode fortalecer a identidade do negócio e atrair mais clientes.
           </p>
+           <p>
+            Um site de bolos no pote deve ser atraente, intuitivo e funcional, destacando a variedade de sabores,
+             ingredientes de qualidade e a praticidade do produto. Além de um design moderno e imagens apetitosas, 
+             é essencial que o site ofereça uma experiência fácil de navegação, permitindo que os clientes conheçam os produtos, 
+             personalizem pedidos e realizem compras online de forma rápida e segura. Informações sobre ingredientes, embalagens 
+             e opções de entrega podem agregar valor à experiência do usuário, aumentando a confiança na marca. Além disso,
+             integrar um blog com receitas, dicas e novidades pode fortalecer a identidade do negócio e atrair mais clientes.
+          </p>
 
-                    <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
+         <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
         </div>
       </div>
     </div>

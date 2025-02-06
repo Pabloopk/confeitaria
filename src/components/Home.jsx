@@ -9,8 +9,8 @@ const Home = () => {
     lg:flex-row lg:justify-between items-center lg:px-32 px-5 
     gap-10 bg-gradient-to-r from-[#fff] to-[#eb8fc8] ">
       <div className=" w-full lg:w-2/4 space-y-4 mt-14 lg:mt-0">
-        <h1 className="font-semibold text-5xl text-center lg:text-start leading-tight">
-          Site Exemplo para Cafeterias, Padarias e Autônomos
+        <h1 className="font-semibold text-5xl xs:mt-12 text-center lg:text-start leading-tight">
+          Love Cakes
         </h1>
         <p>
          O projeto modelo para clientes de ramos alimentícios foi desenvolvido com o objetivo de proporcionar aos empreendedores deste setor uma solução prática e eficiente para terem seus primeiros sites.
