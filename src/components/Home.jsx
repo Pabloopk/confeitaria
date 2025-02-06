@@ -12,9 +12,7 @@ const Home = () => {
         <h1 className="font-semibold text-5xl xs:mt-12 text-center lg:text-start leading-tight">
           Love Cakes
         </h1>
-        <p>
-         O projeto modelo para clientes de ramos alimentícios foi desenvolvido com o objetivo de proporcionar aos empreendedores deste setor uma solução prática e eficiente para terem seus primeiros sites.
-        </p>
+        <p>Nosso compromisso é entregar produtos fresquinhos e irresistíveis, feitos com carinho e dedicação. Seja para um presente especial, uma festa ou simplesmente para adoçar o seu dia, a Love Cakes está aqui para tornar cada momento mais doce!</p>
 
         <div className=" flex flex-row gap-6">
           <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><Button title="Contato" /></a>
