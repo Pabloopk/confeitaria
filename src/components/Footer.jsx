@@ -74,14 +74,14 @@ const Footer = () => {
               className=" hover:text-backgroundColor transition-all cursor-pointer"
               href="/"
             >
-              dev.pablonunes@gmail.com
+              lovecakess__
             </a>
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi%21&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"
               target="_blank"
             >
-              61 9 9229 5015
+              61 99817-9788
             </a>
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"

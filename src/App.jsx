@@ -6,6 +6,7 @@ import About from "./components/About";
 import Product from "./components/Product";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
+import ScrollingText from "./components/ScrollingText";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <div id="about">
           <About />
         </div>
+        
 
         <div id="products">
           <Product />
@@ -32,6 +34,10 @@ const App = () => {
         <div id="review">
           <Review />
         </div>
+        <ScrollingText
+              text="com amor e carinho para seu dia mais doce!"
+              speed={20} // Tempo em segundos para o texto percorrer a tela
+            />
       </main>
 
       <Footer />

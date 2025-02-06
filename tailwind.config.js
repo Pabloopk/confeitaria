@@ -8,8 +8,15 @@ export default {
         backgroundColor: "#FDE9",
       },
       animation: {
-        slowspin: "spin 10s linear infinite", // Rotação lenta de 5s
+        slowspin: "spin 10s linear infinite",
+        scrolling: "scrollingText  5s linear infinite",
       },
+      keyframes: {
+         scrollingText: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        },
       screens: {
         'xs': '480px',  // Extra pequeno (mobile pequeno)
         'sm': '640px',  // Pequeno (smartphones normais)

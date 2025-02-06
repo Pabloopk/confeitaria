@@ -85,7 +85,7 @@ const Navbar = () => {
           </nav>
 
           <div className=" hidden text-2xl lg:flex">
-              <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi%21&type=phone_number&app_absent=0" target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0" target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
               
               <a href="/" target={"_blank"}><FaInstagram className="rounded-md text-2xl ml-3 text-pink-700 bg-white"/></a>
           </div>
@@ -155,7 +155,7 @@ const Navbar = () => {
           </Link>
 
           <div className="flex items-center justify-center text-2xl lg:flex">
-              <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi%21&type=phone_number&app_absent=0" target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0" target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
 
               <a href="/" target={"_blank"}><FaInstagram className="rounded-md text-2xl ml-3 text-pink-700 bg-white"/></a>
           </div>
