@@ -88,7 +88,7 @@ const Navbar = () => {
           </nav>
 
           <div className=" hidden lg:flex">
-              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaWhatsapp className="rounded-full text-white bg-green-500"/></a>
+              <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}><FaWhatsapp className="rounded-full text-2xl text-white bg-green-500"/></a>
           </div>
 
           <div className="md:hidden flex items-center">
