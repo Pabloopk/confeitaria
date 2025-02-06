@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { SiCoffeescript } from "react-icons/si";
+import love from "../../public/LoveCakes.svg";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -22,9 +22,7 @@ const Navbar = () => {
         <div className=" flex flex-row justify-between p-5 lg:px-32 px-5 bg-gradient-to-r 
         from-backgroundColor to-brightColor shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className=" flex flex-row items-center cursor-pointer gap-2">
-            <span>
-              <SiCoffeescript size={25} />
-            </span>
+            <img src={love} alt="LoveCakes" className="w-10" />
             <h1 className=" text-xl font-semibold">love cakes</h1>
           </div>
 
