@@ -13,7 +13,11 @@ export default {
         'md': '768px',  // Médio (tablets)
         'lg': '1024px', // Grande (notebooks)
         'xl': '1280px', // Extra grande (monitores grandes)
-      }
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"], // Exemplo com a fonte Poppins
+        serif: ["Merriweather", "serif"],
+      },
     },
   },
   plugins: [],
