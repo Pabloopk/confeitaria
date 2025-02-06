@@ -7,6 +7,9 @@ export default {
         brightColor: "#eb8fc8",
         backgroundColor: "#FDE9",
       },
+      animation: {
+        slowspin: "spin 10s linear infinite", // Rotação lenta de 5s
+      },
       screens: {
         'xs': '480px',  // Extra pequeno (mobile pequeno)
         'sm': '640px',  // Pequeno (smartphones normais)
