@@ -8,9 +8,7 @@ const About = () => {
       <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">Sobre a love cakes</h1>
 
       <div className=" flex flex-col lg:flex-row items-center gap-5">
-        <div className=" w-full lg:w-2/4">
-          <img className=" rounded-lg" src={img} alt="img" />
-        </div>
+        
         <div className=" w-full lg:w-2/4 p-4 space-y-3">
           
           <p>A <span className="text-red-400 font-bold">love Cakes</span> não é apenas uma confeitaria, é um pedacinho de carinho em forma de doce!</p>
@@ -24,7 +22,9 @@ const About = () => {
                 <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi%21&type=phone_number&app_absent=0"  target={"_blank"}><Button title="Contato" /></a>
               </div>  
        </div>
-       
+       <div className=" w-full lg:w-2/4">
+          <img className=" rounded-lg" src={img} alt="img" />
+        </div>
       </div>
       
     </div>
