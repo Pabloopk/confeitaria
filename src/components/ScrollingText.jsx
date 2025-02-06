@@ -13,7 +13,7 @@ const ScrollingText = ({ text, speed = 10}) => {
           className="text-8xl md:text-5xl font-extrabold  uppercase text-transparent"
           style={{
             WebkitTextStroke: "2px gray",
-             // Define a cor e a espessura da borda
+             
           }}
         >
           {text}

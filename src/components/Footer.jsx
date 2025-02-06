@@ -44,35 +44,13 @@ const Footer = () => {
            
           </nav>
         </div>
-        <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Menu</h1>
-          <nav className=" flex flex-col gap-2">
-            <a
-              className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="/"
-            >
-              Cappuccino
-            </a>
-            <a
-              className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="/"
-            >
-              Latte
-            </a>
-            <a
-              className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="/"
-            >
-              Americano
-            </a>
-          </nav>
-        </div>
+        
         <div>
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="/"
+              href="https://www.instagram.com/lovecakess____/" target={"_blank"}
             >
               lovecakess__
             </a>
@@ -83,24 +61,19 @@ const Footer = () => {
             >
               61 99817-9788
             </a>
-            <a
-              className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="/"
-            >
-              Social media
-            </a>
+            
           </nav>
         </div>
       </div>
       <div>
         <p>
           <p className=" text-center py-4">
-            @copyright Desenvolvido por
+            &copy;  {new Date().getFullYear()} Desenvolvido por
             <span className=" text-blue-700">
               {" "}
               <a href="https://desenvolvedorpablo.vercel.app" target={"_blank"}>Pablo Nunes</a>{" "}
             </span>
-            | Todos Direitos Reservados
+            | Todos Direitos Reservados.
           </p>
         </p>
       </div>

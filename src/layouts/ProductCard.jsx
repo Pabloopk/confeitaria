@@ -17,7 +17,7 @@ const ProductCard = (props) => {
           <BsStarHalf className=" text-brightColor" />
         </div>
         <h3 className=" font-semibold text-lg">$15.99</h3>
-        <Button title="Add To Card" />
+        
       </div>
     </div>
   );

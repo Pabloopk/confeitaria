@@ -22,7 +22,7 @@ const Review = () => {
           <p className="mt-12 "><span className="text-red-500 text-lg">
             🔔Quer aparecer aqui?</span> </p> 
             <p className="flex items-center justify-between">Nos marque no instagram:
-              <a href="/" target={"_blank"} className="ml-3" >
+              <a href="https://www.instagram.com/lovecakess____/" target={"_blank"} className="ml-3" >
                   <FaInstagram/>
               </a>
             </p>
