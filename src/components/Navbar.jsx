@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import love from "../../public/LoveCakes.svg";
+import love from "../../public/LoveCakes.png";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
