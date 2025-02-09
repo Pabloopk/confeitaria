@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
 import ScrollingText from "./components/ScrollingText";
+import GoogleMap from "./components/GoogleMap";
 
 const App = () => {
   return (
@@ -42,7 +43,11 @@ const App = () => {
               speed={20} // Tempo em segundos para o texto percorrer a tela
             />
          </div>
+
+         <GoogleMap/>
       </main>
+
+
 
       <Footer />
     </div>

@@ -12,9 +12,9 @@ const Product = () => {
       </h1>
 
       <div className=" flex flex-col lg:flex-row gap-12 justify-center">
-        <ProductCard img={img1} title="Nespresso" />
-        <ProductCard img={img2} title="AeroPress" />
-        <ProductCard img={img3} title="Chemex" />
+        <ProductCard img={img1} title="Cookies" />
+        <ProductCard img={img2} title="Bolo Vulcão" />
+  
         
       </div>
         <div className="mt-24 flex items-center justify-center ">
