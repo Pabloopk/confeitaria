@@ -47,8 +47,6 @@ const App = () => {
          <GoogleMap/>
       </main>
 
-
-
       <Footer />
     </div>
   );
