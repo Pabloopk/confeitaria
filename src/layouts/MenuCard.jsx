@@ -12,12 +12,7 @@ const MenuCard = (props) => {
           <h3 className=" font-semibold text-xl">{props.title}</h3>
           <h3 className=" font-semibold text-xl">{props.value}</h3>
         </div>
-        {/* <div className=" flex flex-row justify-between mt-3">
-          
-          <span className=" flex items-center bg-[#FFDCAB] px-3 py-2 rounded-full cursor-pointer">
-            <FaShoppingCart size={20} />
-          </span>
-        </div> */}
+        
         
       </div>
     </div>

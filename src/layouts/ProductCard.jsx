@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../layouts/Button";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
 
@@ -16,7 +15,7 @@ const ProductCard = (props) => {
           <BsStarFill className=" text-brightColor" />
           <BsStarHalf className=" text-brightColor" />
         </div>
-        <h3 className=" font-semibold text-lg">$15.99</h3>
+    
         
       </div>
     </div>
