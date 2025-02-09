@@ -19,7 +19,7 @@ const About = () => {
             <span className="text-red-400 font-bold">Nosso propósito?</span> Adoçar sua vida com receitas artesanais, cheias de sabor e afeto. Seja para presentear alguém especial, celebrar uma conquista ou simplesmente se mimar com um doce incrível, estamos aqui para tornar cada momento ainda mais doce!
              </p>
               <div className="mt-24">
-                <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"  target={"_blank"}><Button title="Contato" /></a>
+                <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"  target={"_blank"}><Button title="Encomendar" /></a>
               </div>  
        </div>
        <div className=" w-full lg:w-2/4">

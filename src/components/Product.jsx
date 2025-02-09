@@ -15,7 +15,15 @@ const Product = () => {
         <ProductCard img={img1} title="Nespresso" />
         <ProductCard img={img2} title="AeroPress" />
         <ProductCard img={img3} title="Chemex" />
+        
       </div>
+        <div className="mt-24 flex items-center justify-center ">
+          <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"  target={"_blank"}
+          className="bg-green-500 hover:bg-pink-400 rounded-3xl p-2 text-slate-200 transition-all duration-300">
+            Encomendar
+          </a>
+        </div>  
+              
     </div>
   );
 };
