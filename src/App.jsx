@@ -21,7 +21,7 @@ const App = () => {
         <div id="menu">
           <Menu />
         </div>
-        
+
          <div id="products">
           <Product />
         </div>
@@ -38,7 +38,7 @@ const App = () => {
         </div>
         <div className="lg:mb-10">
           <ScrollingText
-              text="com amor e carinho para seu dia mais doce!"
+              text="com amor e carinho para seus dias mais doces!"
               speed={20} // Tempo em segundos para o texto percorrer a tela
             />
          </div>
