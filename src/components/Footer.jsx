@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         
         <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
+          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contato</h1>
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
