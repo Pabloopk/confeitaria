@@ -21,15 +21,17 @@ const App = () => {
         <div id="menu">
           <Menu />
         </div>
+        
+         <div id="products">
+          <Product />
+        </div>
 
         <div id="about">
           <About />
         </div>
         
 
-        <div id="products">
-          <Product />
-        </div>
+       
 
         <div id="review">
           <Review />

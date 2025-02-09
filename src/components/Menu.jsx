@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../assets/img/menu1.jpg";
-import img2 from "../assets/img/menu2.jpg";
-import img3 from "../assets/img/menu3.jpg";
-import img4 from "../assets/img/menu4.jpg";
-import img5 from "../assets/img/menu5.jpg";
-import img6 from "../assets/img/menu6.jpg";
+import img1 from "../assets/img/menu1.png";
+import img2 from "../assets/img/menu2.png";
+import img3 from "../assets/img/menu3.png";
+import img4 from "../assets/img/menu4.png";
+import img5 from "../assets/img/menu5.png";
+import img6 from "../assets/img/menu6.png";
 import MenuCard from "../layouts/MenuCard";
 import Button from "../layouts/Button";
 
@@ -23,12 +23,12 @@ const Menu = () => {
         <MenuCard img={img5} title="Macchiato" value="R$10,00"/>
         <MenuCard img={img6} title="Doppio" value="R$10,00"/>
       </div>
-        <div className="mt-24 flex items-center justify-center ">
-          <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"  target={"_blank"}
-          className="bg-green-500 hover:bg-pink-400 rounded-3xl p-2 text-slate-200 transition-all duration-300">
-            Encomendar
-          </a>
-        </div>  
+      <div className="mt-24 flex items-center justify-center ">
+        <a href="https://api.whatsapp.com/send/?phone=5561998179788&text=Oi,+vim+pelo+site!+Quero+fazer+uma+encomenda%21&type=phone_number&app_absent=0"  target={"_blank"}
+        className="bg-green-500 hover:bg-pink-400 rounded-3xl p-2 text-slate-200 transition-all duration-300">
+          Encomendar
+        </a>
+      </div>  
     </div>
   );
 };

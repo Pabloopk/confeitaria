@@ -50,6 +50,8 @@ const Navbar = () => {
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
 
+            
+
             <Link
               to="about"
               spy={true}
@@ -61,16 +63,7 @@ const Navbar = () => {
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
 
-            <Link
-              to="products"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="group relative inline-block cursor-pointer hover:text-pink-100"
-            >
-              Produtos
-              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-            </Link>
+           
 
             <Link
               to="review"
@@ -123,6 +116,9 @@ const Navbar = () => {
           >
             Menu
           </Link>
+
+            
+
           <Link
             to="about"
             spy={true}
@@ -133,16 +129,7 @@ const Navbar = () => {
           >
             Sobre
           </Link>
-          <Link
-            to="products"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="hover:text-brightColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Produtos
-          </Link>
+        
           <Link
             to="review"
             spy={true}
