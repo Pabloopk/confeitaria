@@ -50,7 +50,7 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-backgroundColor transition-all cursor-pointer"
-              href="https://www.instagram.com/lovecakess____/" target={"_blank"}
+              href="https://www.instagram.com/lovecakess___/" target={"_blank"}
             >
               lovecakess__
             </a>
