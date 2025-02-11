@@ -1,7 +1,8 @@
 import React from "react";
-import img1 from "../assets/img/1.png";
-import img2 from "../assets/img/3.png";
-import img3 from "../assets/img/product3.jpg";
+import img1 from "../assets/img/bis.png";
+import img2 from "../assets/img/vul.png";
+
+
 import ProductCard from "../layouts/ProductCard";
 
 const Product = () => {
@@ -14,7 +15,7 @@ const Product = () => {
       <div className=" flex flex-col lg:flex-row gap-12 justify-center">
         <ProductCard img={img1} title="Cookies" />
         <ProductCard img={img2} title="Bolo Vulcão" />
-  
+    
         
       </div>
         <div className="mt-24 flex items-center justify-center ">
