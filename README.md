@@ -23,7 +23,7 @@ Projeto desenvolvido com react.js, vite, TailwindCss e html. Lading Page simples
     <img width="50px" style="padding: 50px;" alt="ReactJs" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 </div>
 
-## Os objetivos do José Paulo são:
+## Os objetivos do Site são:
 
 1. Exibir a excelência artística.
 2. Ampliar presença online.
