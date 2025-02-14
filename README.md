@@ -3,7 +3,7 @@
 
 ## Descrição:
 
-Projeto desenvolvido com react.js, vite, TailwindCss e html. Lading Page simples, one page, uma página estática para informar seus serviços.
+Projeto desenvolvido com react.js, vite, TailwindCss e html. Landing Page simples, one page, uma página estática para informar seus serviços.
 
 
 
