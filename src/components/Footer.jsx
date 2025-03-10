@@ -71,7 +71,7 @@ const Footer = () => {
             &copy;  {new Date().getFullYear()} Desenvolvido por
             <span className=" text-blue-700">
               {" "}
-              <a href="https://desenvolvedorpablo.vercel.app" target={"_blank"}>Pablo Nunes</a>{" "}
+              <a href="https://pabloodev.online" target={"_blank"}>Pablo Nunes</a>{" "}
             </span>
             | Todos Direitos Reservados.
           </p>
